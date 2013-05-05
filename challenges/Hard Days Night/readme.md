@@ -2,11 +2,12 @@
 
 It's been a hard day and the four friends Goerge, Paul, John and Ringo want to hang out together. They could either meet at a friends place or go to a local pub. After a long argument, they decide to meet at the place with the least total travel cost. The travel cost is just the distance from one place to another.
 
-The input starts with the number of testcases, then follows the number N of friends. After that follow N lines, each with the name of a friend. Then one line with M the number of hangout places. Again, M lines with names for the hangout places. Now comes E, the number of given distances from one point to another. Each places has two names and an integer, the distance, each on its own line. If you want to, you can also parse the JSON file as input.
+The input starts with the number of testcases, then follows the number `N` of friends. After that follow `N` lines, each with the name of a friend. Then one line with `M` the number of hangout places. Again, `M` lines with names for the hangout places. Now comes `E`, the number of given edges. Each edge has two names (the end points) and an integer, the actual distance, each on its own line. If you want to, you can also parse the JSON file as input.
 
-Per tescase output a single line, containing the name of the point the friends will meet at.
+Output a single line per testcase, containing the name of the point the friends will meet at.
 
 ## Example Input
+
     2
     4
     Paul
