@@ -1,5 +1,6 @@
 /** Sort.rs
  * by @Kambfhase
+ * rust 0.6
  */
 extern mod std;
 use core::io::{Reader,ReaderUtil};
